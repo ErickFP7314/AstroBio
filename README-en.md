@@ -20,6 +20,4 @@ Two decoupled motors coordinated by a simulation orchestrator (see docs/adr/):
 - **UI** — backend `ui/api.py` (FastAPI) + frontend `frontend/` (React), desacoplados
   del motor (ver ADR-0009).
 
----
-
 # Estructura del repositorio

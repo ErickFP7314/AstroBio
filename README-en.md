@@ -23,7 +23,7 @@ Two decoupled motors coordinated by a simulation orchestrator (see docs/adr/):
 # Repository structure
 
 ```
-src/astrobiosim/   Código fuente Python (core, engine, data, modes, ui/api.py)
+src/astrobiosim/   Python source code (core, engine, data, modes, ui/api.py)
 frontend/          Dashboard React (Vite + TypeScript) — se agrega en Hito 3
 tests/             Tests unitarios e de integración (pytest)
 notebooks/         Análisis retrospectivo (Jupyter)

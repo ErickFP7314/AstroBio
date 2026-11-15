@@ -20,8 +20,9 @@ Two decoupled motors coordinated by a simulation orchestrator (see docs/adr/):
 - **UI** — backend `ui/api.py` (FastAPI) + frontend `frontend/` (React), desacoplados
   del motor (ver ADR-0009).
 
-# Estructura del repositorio
+# Repository structure
 
+```
 src/astrobiosim/   Código fuente Python (core, engine, data, modes, ui/api.py)
 frontend/          Dashboard React (Vite + TypeScript) — se agrega en Hito 3
 tests/             Tests unitarios e de integración (pytest)
@@ -29,3 +30,5 @@ notebooks/         Análisis retrospectivo (Jupyter)
 data/              Datasets crudos y procesados
 docs/adr/          Decisiones arquitectónicas (ADR)
 openspec/          Artefactos de planificación (proposal, specs, design, tasks)
+```
+

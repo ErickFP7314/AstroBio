@@ -25,7 +25,7 @@ Two decoupled motors coordinated by a simulation orchestrator (see docs/adr/):
 ```
 src/astrobiosim/   Python source code (core, engine, data, modes, ui/api.py)
 frontend/          React Dashboard (Vite + TypeScript) — added in Milestone 3
-tests/             Tests unitarios e de integración (pytest)
+tests/             Unit and integration tests (pytest)
 notebooks/         Análisis retrospectivo (Jupyter)
 data/              Datasets crudos y procesados
 docs/adr/          Decisiones arquitectónicas (ADR)

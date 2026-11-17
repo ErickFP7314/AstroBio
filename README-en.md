@@ -28,7 +28,7 @@ frontend/          React Dashboard (Vite + TypeScript) — added in Milestone 3
 tests/             Unit and integration tests (pytest)
 notebooks/         Análisis retrospectivo (Jupyter)
 data/              Raw and processed datasets
-docs/adr/          Decisiones arquitectónicas (ADR)
+docs/adr/          Architectural Decision Records (ADR)
 openspec/          Artefactos de planificación (proposal, specs, design, tasks)
 ```
 

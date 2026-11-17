@@ -27,7 +27,7 @@ src/astrobiosim/   Python source code (core, engine, data, modes, ui/api.py)
 frontend/          React Dashboard (Vite + TypeScript) — added in Milestone 3
 tests/             Unit and integration tests (pytest)
 notebooks/         Análisis retrospectivo (Jupyter)
-data/              Datasets crudos y procesados
+data/              Raw and processed datasets
 docs/adr/          Decisiones arquitectónicas (ADR)
 openspec/          Artefactos de planificación (proposal, specs, design, tasks)
 ```

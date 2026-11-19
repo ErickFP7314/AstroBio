@@ -32,3 +32,11 @@ docs/adr/          Architectural Decision Records (ADR)
 openspec/          Artefactos de planificación (proposal, specs, design, tasks)
 ```
 
+
+# Instalation
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -e ".[dev]"
+```
+
